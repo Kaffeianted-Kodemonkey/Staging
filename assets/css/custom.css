@@ -1,0 +1,67 @@
+
+/* Custom styles */
+/* These are designer added or mondifies styles from the main styles.
+   Enter your custom style below */
+
+/* blockquote background color */
+.bg-kkm-blue{
+  background-color: #37517E;
+  margin: 40px 100px;
+  padding: 25px;
+}
+
+/* disable url/nav link */
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+/************************************/
+
+.dubble-line {
+  text-decoration-line: underline;
+  text-decoration-color: /*#47B2E4*/ #37517E;
+  text-decoration-style: double;
+  text-decoration-thickness: 2px;
+}
+
+.dubble-line a{
+  color: #37517e /*#216ED4*/;
+}
+
+.dubble-line a:hover{
+  color: #47B2E4;
+}
+
+/****************************/
+/** Remove bulltes in uls **/
+/***************************/
+ul.no-bullets {
+ list-style-type: none; /* Remove bullets */
+ padding: 0; /* Remove padding */
+ margin: 0; /* Remove margins */
+}
+/***************************/
+/* footer email link       */
+/***************************/
+#footer .footer-top .info .booking .footer-links a{
+  color: #5573B4 /*#777777*/;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .info .booking .footer-links a:hover {
+  text-decoration: none;
+  color: #47b2e4;
+}
+
+.credits a{
+  color: #BBC5DD /*#777777*/;
+}
+
+.credits a:hover{
+  color: #6BC1E9;
+}
