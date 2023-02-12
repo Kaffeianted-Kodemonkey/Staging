@@ -4,18 +4,18 @@
       <h1>{{ page.subtitle %}}</h1>
       <figure>
         {% if page.title == "About" %}
-          <img src="/assets/img/KKM-Logo.png" alt="Kaffeinated Kodemonkey" width="50%" />
+          <img src="{{site.url}}/assets/img/KKM-Logo.png" alt="Kaffeinated Kodemonkey" width="50%" />
           <figcaption>
             <h3>Owner | A11y Dev</h3>
             <p><strong>Trusted Tester ID: TT-2311-03604</strong>
           </figcaption>
           <!-- Certificaions -->
-        {% elsif page.title == "A11y Evaluation" %}
-          <img src="{{baseurl}}assets/img/A11y-eval.png" width="75%" alt="Accessibility Evaluation">
         {% elsif page.category == "Services" %}
-          <img src="{{baseurl}}assets/img/certificationLogo.png" width="55%" alt="POCC">
+          <img src="{{site.url}}/assets/img/certificationLogo.png" width="55%" alt="POCC">
+        {% elsif page.category == "KKM-POCC" %}
+          <img src="{{site.url}}/assets/img/POCC-Seal.png" alt="POCC Seal" width="43%">
         {% else %}
-          <img src="{{baseurl}}assets/img/POCC-Seal.png" alt="POCC Seal" width="43%">
+          <img src="{{site.url}}/assets/img/A11y-eval.png" width="75%" alt="Accessibility Evaluation">
         {% endif %}
       </figure>
     </div>
@@ -27,17 +27,17 @@
       {% if page.category != 'KKM-POCC' %}
         <h3>Additional Services</h3>
           <ul class="ms-2">
-          <li><a href="/A11y-Evaluation.html" {% if page.title == "A11y Evaluation" %} class="isDisabled" {% endif %}>A11y Evaluation</a></li>
-          <li><a href="/POC-Certification.html" {% if page.title == "Proof of Compliance Certification" %} class="isDisabled" {% endif %}>POC Certification</a></li>
-          <li><a href="/Team-Monitoring.html" {% if page.title == "Team Monitoring" %} class="isDisabled" {% endif %}>Team Monitoring</a></li>
-          <li><a href="/Agency-Monitoring.html" {% if page.title == "Agency Monitoring" %} class="isDisabled" {% endif %}>Agency Monitoring</a></li>
+          <li><a href="{{site.url}}/A11y-Evaluation.html" {% if page.title == "A11y Evaluation" %} class="isDisabled" {% endif %}>A11y Evaluation</a></li>
+          <li><a href="{{site.url}}/POC-Certification.html" {% if page.title == "Proof of Compliance Certification" %} class="isDisabled" {% endif %}>POC Certification</a></li>
+          <li><a href="{{site.url}}/Team-Monitoring.html" {% if page.title == "Team Monitoring" %} class="isDisabled" {% endif %}>Team Monitoring</a></li>
+          <li><a href="{{site.url}}/Agency-Monitoring.html" {% if page.title == "Agency Monitoring" %} class="isDisabled" {% endif %}>Agency Monitoring</a></li>
         </ul>
       {% else %}
         <h3>POCC Documents</h3>
         <ul>
-          <li><a href="/POCC.html">POC Certification</a></li>
-          <li><a href="/A11y-Statement.html">Accessibility Statement</a></li>
-          <li><a href="/ARC.html">Accessibility Conformance Report</a></li>
+          <li><a href="{{site.url}}/POCC.html">POC Certification</a></li>
+          <li><a href="{{site.url}}/A11y-Statement.html">Accessibility Statement</a></li>
+          <li><a href="{{site.url}}/ARC.html">Accessibility Conformance Report</a></li>
         </ul>
       {% endif %}
 
@@ -50,7 +50,7 @@
     <div class="col">
       <h3>Affiliates</h3>
       <ul class="no-bullets">
-        <li><a href="https://prz.io/149K6enU0" target="_blank"><img src="{{baseurl}}/assets/img/affiliates/Black-Rifle-Coffee.png" width="91%" alt="Black Rifle Coffee"></a></li>
+        <li><a href="https://prz.io/149K6enU0" target="_blank"><img src="{{site.url}}/assets/img/affiliates/Black-Rifle-Coffee.png" width="91%" alt="Black Rifle Coffee"></a></li>
         <li class="pt-2"><script type="text/javascript" src="//cdn.refersion.com/creative.js"></script>
 <script>$rfsn_creative.generate('refersion_client/44970/creatives/dynamic/91385-62a3e2e7f703f62ee2e5df9fd5eaf371.json', {
 	aid: '5657995.6e61db9'
