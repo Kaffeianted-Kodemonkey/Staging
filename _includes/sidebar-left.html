@@ -24,7 +24,7 @@
   <hr>
   <div class="row ms-5 ps-5">
     <div class="col">
-      {% if page.category != 'KKM-POCC' %}
+      {% if page.category == 'Services' %}
         <h3>Additional Services</h3>
           <ul class="ms-2">
           <li><a href="{{site.url}}/A11y-Evaluation.html" {% if page.title == "A11y Evaluation" %} class="isDisabled" {% endif %}>A11y Evaluation</a></li>
@@ -32,7 +32,14 @@
           <li><a href="{{site.url}}/Team-Monitoring.html" {% if page.title == "Team Monitoring" %} class="isDisabled" {% endif %}>Team Monitoring</a></li>
           <li><a href="{{site.url}}/Agency-Monitoring.html" {% if page.title == "Agency Monitoring" %} class="isDisabled" {% endif %}>Agency Monitoring</a></li>
         </ul>
-      {% else %}
+      {% elsif page.category == 'Policies' %}
+      <h3>Policies</h3>
+        <ul class="ms-2">
+        <li><a href="{{site.url}}/TOS.html" {% if page.title == "Terms of Service" %} class="isDisabled" {% endif %}>Terms of Service</a></li>
+        <li><a href="{{site.url}}/Privacy-Policy.html" {% if page.title == "Privacy Policy" %} class="isDisabled" {% endif %}>Privacy Policy</a></li>
+        <li><a href="{{site.url}}/Disclaimer.html" {% if page.title == "Disclaimer" %} class="isDisabled" {% endif %}>Disclaimer</a></li>
+      </ul>
+      {% elsif page.category == 'KKM-POCC' %}
         <h3>POCC Documents</h3>
         <ul>
           <li><a href="{{site.url}}/POCC.html">POC Certification</a></li>
