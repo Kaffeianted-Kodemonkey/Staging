@@ -27,5 +27,13 @@
   <link href="{{site.url}}/assets/css/style.css" rel="stylesheet">
   <link href="{{site.url}}/assets/css/custom.css" rel="stylesheet">
 
+  <script>
+      let oldURL= {{site.url}}{{ page.url | relative_url }};
+
+      if (oldURL == {{site.url}}/Clients) {
+        return url = {{ site.url}};
+      }
+      window.location.href = url;
+    </script>
 
 </head>
