@@ -14,5 +14,4 @@ title: Kaffeinated Kodemoney
 layout: homepage-Template
 redirect_from:
   - /Clients
-  - /index.html
 ---
