@@ -30,19 +30,15 @@ url: "https://www.kaffeinatedkodemonkey.com" # the base hostname & protocol for 
 twitter: https://twitter.com/kfn8dKodeMonkey
 github:  https://github.com/kfn8dkodemonkey
 linkedin: https://www.linkedin.com/in/kaffeinatedkodemonkey/
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
-excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
 theme: minima
-
-plugins_dir:
+plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+
+excerpt_separator: <!--more-->
 
 future: false
 
