@@ -23,7 +23,7 @@ author: The Kodemonkey
 email: info@kaffeinatedkodemonkey.com
 phone: (970) 757-2222
 description: >- # this means to ignore newlines until "baseurl:"
-  Accessibility Driven Websites!
+  Certifing and monitoring ditgital content for WCAG/508 requirements.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.kaffeinatedkodemonkey.com" # the base hostname & protocol for your site, e.g. http://example.com
 
