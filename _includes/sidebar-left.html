@@ -23,25 +23,14 @@
   <hr>
   <div class="row ms-5 ps-5">
     <div class="col">
-
-      {% for page in site.pages %}
-        {% if page.category == 'KKM-POCC' %}
-          <p><a href="{{ page.url }}">{{ page.title }}</a></p>
-        {% elsif page.category contains 'Services' %}
-          <p><a href="{{ page.url }}">{{ page.title }}</p>
-        {% endif %}
-      {% endfor %}
-
-
-
-
-  <!--    {% if page.category == 'Services' %}
+      {% if page.category == 'Services' %}
         <h3>Additional Services</h3>
           <ul class="ms-2">
-          <li><a href="{{site.url}}/A11y-Evaluation.html" {% if page.title == "A11y Evaluation" %} class="isDisabled" {% endif %}>A11y Evaluation</a></li>
-          <li><a href="{{site.url}}/POC-Certification.html" {% if page.title == "Proof of Compliance Certification" %} class="isDisabled" {% endif %}>POC Certification</a></li>
-          <li><a href="{{site.url}}/Team-Monitoring.html" {% if page.title == "Team Monitoring" %} class="isDisabled" {% endif %}>Team Monitoring</a></li>
-          <li><a href="{{site.url}}/Agency-Monitoring.html" {% if page.title == "Agency Monitoring" %} class="isDisabled" {% endif %}>Agency Monitoring</a></li>
+            <li><a href="{{site.url}}/A11yWebDesign.html" {% if page.title == "A11y Web Design" %} class="isDisabled" {% endif %}>A11y Web Design</a></li>
+            <li><a href="{{site.url}}/A11y-Evaluation.html" {% if page.title == "A11y Evaluation" %} class="isDisabled" {% endif %}>A11y Evaluation</a></li>
+            <li><a href="{{site.url}}/POC-Certification.html" {% if page.title == "Proof of Compliance Certification" %} class="isDisabled" {% endif %}>POC Certification</a></li>
+            <li><a href="{{site.url}}/Team-Monitoring.html" {% if page.title == "Team Monitoring" %} class="isDisabled" {% endif %}>Team Monitoring</a></li>
+            <li><a href="{{site.url}}/Agency-Monitoring.html" {% if page.title == "Agency Monitoring" %} class="isDisabled" {% endif %}>Agency Monitoring</a></li>
         </ul>
       {% elsif page.category == 'Policies' %}
       <h3>Policies</h3>
@@ -57,7 +46,7 @@
           <li><a href="{{site.url}}/A11y-Statement.html">Accessibility Statement</a></li>
           <li><a href="{{site.url}}/ARC.html">Accessibility Conformance Report</a></li>
         </ul>
-      {% endif %} -->
+      {% endif %}
     </div>
   </div>
 
