@@ -1,25 +1,17 @@
----
-layout: inner-pages
-title: A11y Compliance
-subtitle: Tips on navigating an A11y designed website
-category: [KKM-POCC]
-
----
-
-<blockquote class="blockquote p-3 mb-2 bg-kkm-blue text-light rounded">
-  <h3 class="text-center">This website has a POC Certification - Compliance with WCAG 2.1 Level AA.</h4>
-</blockquote>
-<br>
+I"¿<blockquote class="blockquote p-3 mb-2 bg-kkm-blue text-light rounded">
+  <h3 class="text-center">This website has a POC Certification - Compliance with WCAG 2.1 Level AA.&lt;/h4&gt;
+&lt;/blockquote&gt;
+<br />
 
 <p>Kaffeinated Kodemonkey is a DHS Certified Trusted Tester and uses the trusted tester process, paired with an A11y Platform to managed the accessibiltiy of the website.</p>
-<p>To further understand our accessibiltiy process and view our POC Certification visit our POC Certification & supporting documents:
+<p>To further understand our accessibiltiy process and view our POC Certification visit our POC Certification &amp; supporting documents:
 <ul>
   <li><a href="/POCC.html">POC Certification</a></li>
   <li><a href="/A11y-Statement.html">Accessibility Statement</a></li>
   <li><a href="/ARC.html">Accessibility Conformance Report</a></li>
 </ul>
 
-<hr>
+<hr />
 
 <h2><u>Understanding an Accessibility Driven Website</u></h2>
 
@@ -55,7 +47,7 @@ category: [KKM-POCC]
 
 <h4>Learn how to change mouse settings for Windows operating systems:</h4>
 <ul>
-  <li>Windows 7 &, Vista Mouse Settings</li>
+  <li>Windows 7 &amp;, Vista Mouse Settings</li>
   <li>Windows XP Mouse settings</li>
 </ul>
 
@@ -68,10 +60,12 @@ category: [KKM-POCC]
 
 <h4>Further Assistance?</h4>
 
-<p>If you have further questions or feedback relating to this website, please <a href="{{site.baseurl}}#contact">Contact Us</a>.</p>
+<p>If you have further questions or feedback relating to this website, please <a href="/#contact">Contact Us</a>.</p>
 
 <h4>References</h4>
 <ul>
   <li>Do Section 508 Accessibility Standards Apply to My Website</li>
   <li>Web Content Accessibility Guidelines (WCAG) Overview</li>
 </ul>
+</p></h3></blockquote>
+:ET

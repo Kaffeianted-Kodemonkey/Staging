@@ -34,6 +34,9 @@ linkedin: https://www.linkedin.com/in/kaffeinatedkodemonkey/
 # Build settings
 markdown: kramdown
 theme: minima
+
+categories: [Service, KKM-POCC, Policies]
+
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
@@ -41,6 +44,7 @@ plugins:
 excerpt_separator: <!--more-->
 
 future: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

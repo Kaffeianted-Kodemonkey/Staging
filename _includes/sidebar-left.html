@@ -23,7 +23,19 @@
   <hr>
   <div class="row ms-5 ps-5">
     <div class="col">
-      {% if page.category == 'Services' %}
+
+      {% for page in site.pages %}
+        {% if page.category == 'KKM-POCC' %}
+          <p><a href="{{ page.url }}">{{ page.title }}</a></p>
+        {% elsif page.category contains 'Services' %}
+          <p><a href="{{ page.url }}">{{ page.title }}</p>
+        {% endif %}
+      {% endfor %}
+
+
+
+
+  <!--    {% if page.category == 'Services' %}
         <h3>Additional Services</h3>
           <ul class="ms-2">
           <li><a href="{{site.url}}/A11y-Evaluation.html" {% if page.title == "A11y Evaluation" %} class="isDisabled" {% endif %}>A11y Evaluation</a></li>
@@ -45,9 +57,7 @@
           <li><a href="{{site.url}}/A11y-Statement.html">Accessibility Statement</a></li>
           <li><a href="{{site.url}}/ARC.html">Accessibility Conformance Report</a></li>
         </ul>
-      {% endif %}
-
-      <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" target="_blank" class="btn btn-primary ms-4">Book Consultation</a></p>
+      {% endif %} -->
     </div>
   </div>
 
