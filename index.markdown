@@ -11,8 +11,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: homepage-template
-title: Kodemonkey
-subtitle: Welcome to Kaffeinated Kodemonkey
+title: Kaffeinated Kodemonkey
+subtitle: Web Accessibility Agency
 redirect_from:
   - /Clients
 ---
