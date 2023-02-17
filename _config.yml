@@ -23,28 +23,28 @@ author: The Kodemonkey
 email: info@kaffeinatedkodemonkey.com
 phone: (970) 757-2222
 description: >- # this means to ignore newlines until "baseurl:"
-  Accessibility Driven Websites!
+  Certifing and monitoring ditgital content for WCAG/508 requirements.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.kaffeinatedkodemonkey.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter: https://twitter.com/kfn8dKodeMonkey
 github:  https://github.com/kfn8dkodemonkey
 linkedin: https://www.linkedin.com/in/kaffeinatedkodemonkey/
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
-excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
 theme: minima
 
-plugins_dir:
+categories: [Service, KKM-POCC, Policies]
+
+plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+
+excerpt_separator: <!--more-->
 
 future: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

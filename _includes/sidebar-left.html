@@ -1,10 +1,9 @@
 <aside>
   <div class="row text-center">
     <div class="col">
-      <h1>{{ page.subtitle %}}</h1>
       <figure>
         {% if page.title == "About" %}
-          <img src="{{site.url}}/assets/img/KKM-Logo.png" alt="Kaffeinated Kodemonkey" width="50%" />
+          <img src="{{site.url}}/assets/img/KKM-Logo.png" alt="Kaffeinated Kodemonkey" width="50%" class="mb-3"/>
           <figcaption>
             <h3>Owner | A11y Dev</h3>
             <p><strong>Trusted Tester ID: TT-2311-03604</strong>
@@ -24,15 +23,23 @@
   <hr>
   <div class="row ms-5 ps-5">
     <div class="col">
-      {% if page.category != 'KKM-POCC' %}
+      {% if page.category == 'Services' %}
         <h3>Additional Services</h3>
           <ul class="ms-2">
-          <li><a href="{{site.url}}/A11y-Evaluation.html" {% if page.title == "A11y Evaluation" %} class="isDisabled" {% endif %}>A11y Evaluation</a></li>
-          <li><a href="{{site.url}}/POC-Certification.html" {% if page.title == "Proof of Compliance Certification" %} class="isDisabled" {% endif %}>POC Certification</a></li>
-          <li><a href="{{site.url}}/Team-Monitoring.html" {% if page.title == "Team Monitoring" %} class="isDisabled" {% endif %}>Team Monitoring</a></li>
-          <li><a href="{{site.url}}/Agency-Monitoring.html" {% if page.title == "Agency Monitoring" %} class="isDisabled" {% endif %}>Agency Monitoring</a></li>
+            <li><a href="{{site.url}}/A11yWebDesign.html" {% if page.title == "A11y Web Design" %} class="isDisabled" {% endif %}>A11y Web Design</a></li>
+            <li><a href="{{site.url}}/A11y-Evaluation.html" {% if page.title == "A11y Evaluation" %} class="isDisabled" {% endif %}>A11y Evaluation</a></li>
+            <li><a href="{{site.url}}/POC-Certification.html" {% if page.title == "Proof of Compliance Certification" %} class="isDisabled" {% endif %}>POC Certification</a></li>
+            <li><a href="{{site.url}}/Team-Monitoring.html" {% if page.title == "Team Monitoring" %} class="isDisabled" {% endif %}>Team Monitoring</a></li>
+            <li><a href="{{site.url}}/Agency-Monitoring.html" {% if page.title == "Agency Monitoring" %} class="isDisabled" {% endif %}>Agency Monitoring</a></li>
         </ul>
-      {% else %}
+      {% elsif page.category == 'Policies' %}
+      <h3>Policies</h3>
+        <ul class="ms-2">
+        <li><a href="{{site.url}}/TOS.html" {% if page.title == "Terms of Service" %} class="isDisabled" {% endif %}>Terms of Service</a></li>
+        <li><a href="{{site.url}}/Privacy-Policy.html" {% if page.title == "Privacy Policy" %} class="isDisabled" {% endif %}>Privacy Policy</a></li>
+        <li><a href="{{site.url}}/Disclaimer.html" {% if page.title == "Disclaimer" %} class="isDisabled" {% endif %}>Disclaimer</a></li>
+      </ul>
+      {% elsif page.category == 'KKM-POCC' %}
         <h3>POCC Documents</h3>
         <ul>
           <li><a href="{{site.url}}/POCC.html">POC Certification</a></li>
@@ -40,8 +47,6 @@
           <li><a href="{{site.url}}/ARC.html">Accessibility Conformance Report</a></li>
         </ul>
       {% endif %}
-
-      <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" target="_blank" class="btn btn-primary ms-4">Book Consultation</a></p>
     </div>
   </div>
 
@@ -50,12 +55,12 @@
     <div class="col">
       <h3>Affiliates</h3>
       <ul class="no-bullets">
-        <li><a href="https://prz.io/149K6enU0" target="_blank"><img src="{{site.url}}/assets/img/affiliates/Black-Rifle-Coffee.png" width="91%" alt="Black Rifle Coffee"></a></li>
+        <li><a href="https://prz.io/149K6enU0" target="_blank" rel="nofollow"><img src="{{site.url}}/assets/img/affiliates/Black-Rifle-Coffee.png" width="91%" alt="Black Rifle Coffee"></a></li>
         <li class="pt-2"><script type="text/javascript" src="//cdn.refersion.com/creative.js"></script>
-<script>$rfsn_creative.generate('refersion_client/44970/creatives/dynamic/91385-62a3e2e7f703f62ee2e5df9fd5eaf371.json', {
-	aid: '5657995.6e61db9'
-});</script><div id="rfsn_img_91385"></div>
-        </li>
+        <script>$rfsn_creative.generate('refersion_client/44970/creatives/dynamic/91385-62a3e2e7f703f62ee2e5df9fd5eaf371.json', {
+        	aid: '5657995.6e61db9'
+        });</script><div id="rfsn_img_91385"></div></li>
+        <!-- <li><a href="https://www.link-assistant.com/buy.html?id=SPS_PRO_YEAR&referral=d56d9562ec18e8f907776ee183a5e84a" target="_blank"><img src="" alt="SEO PowerSuite"></a></li> -->
       </ul>
     </div>
   </div>

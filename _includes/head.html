@@ -2,14 +2,14 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>{{ site.title }}</title>
-  <meta content="" name="description">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{% if page.title == 'Home' %}{{site.description}}{% else %}{{page.subtitle}}{% endif %}">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="{{site.url}}/assets/img/kkm-favicon.png" rel="icon">
   <!-- <link href="{{site.url}}/assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
-  <link rel="canonical" href="https://www.kaffeinatedkodemonkey.com/" />
+  <link rel="canonical" href="https://www.kaffeinatedkodemonkey.com{{page.url}}" />
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">

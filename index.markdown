@@ -11,6 +11,11 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: homepage-template
+<<<<<<< HEAD
+=======
+title: WCAG & Section 508 Evaluations
+subtitle: Welcome to Kaffeinated Kodemonkey
+>>>>>>> master
 redirect_from:
   - /Clients
 ---
