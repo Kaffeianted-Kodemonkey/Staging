@@ -23,7 +23,10 @@ author: The Kodemonkey
 email: info@kaffeinatedkodemonkey.com
 phone: (970) 757-2222
 description: >- # this means to ignore newlines until "baseurl:"
-  Helping business meet WCAG/Section 508 requirments and become ADA compliance through Accessibility-First websites and certificaions.
+  Kaffeinated Kodemonkey develops Accessibility-First websites, completes VPAT documents, and certifies digital content to meet WCAG/508 requirments to become ada compliance
+  undert the revised americans with disabilities act and revised rehabilitation act (Section 508).
+
+keywords: VPAT, POC Certifications, POCC, Team Monitoring, Agency Monitoring, wcag, section 508, ada compliance, web accessibility,
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.kaffeinatedkodemonkey.com" # the base hostname & protocol for your site, e.g. http://example.com
 
