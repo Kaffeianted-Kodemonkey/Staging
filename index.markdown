@@ -15,6 +15,4 @@ title: WCAG/508 and ADA Compliance
 subtitle: Web Accessibility Agency
 og-image: KKM-Logo.png
 url: /
-redirect_from:
-  - /Clients
 ---
