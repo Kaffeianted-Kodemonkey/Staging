@@ -13,8 +13,8 @@
 layout: homepage-template
 title: WCAG/508 - VPAT completion - ADA Compliance
 subtitle: Web Accessibility Agency
-image: /assets/img/KKM-Logo.png
-url: 
+og-image: KKM-Logo.png
+url: /
 redirect_from:
   - /Clients
 ---
