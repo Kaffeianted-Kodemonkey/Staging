@@ -23,8 +23,7 @@ author: The Kodemonkey
 email: info@kaffeinatedkodemonkey.com
 phone: (970) 757-2222
 description: >- # this means to ignore newlines until "baseurl:"
-  Kaffeinated Kodemonkey develops A11y-First websites, completes VPAT documents, and certifies digital content to meet WCAG/508 requirments and become ada compliant
-  undert the revised americans with disabilities act and revised rehabilitation act (Section 508).
+  Kaffeinated Kodemonkey delivers A11y-First digital content that meets  WCAG/508 requirements and is ADA compliant.
 
 keywords: VPAT, POC Certifications, POCC, Team Monitoring, Agency Monitoring, wcag, section 508, ada compliance, web accessibility,
 baseurl: "/" # the subpath of your site, e.g. /blog
