@@ -11,7 +11,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: homepage-template
-title: WCAG/508 - VPAT completion - ADA Compliance
+title: WCAG/508 and ADA Compliance
 subtitle: Web Accessibility Agency
 og-image: KKM-Logo.png
 url: /
