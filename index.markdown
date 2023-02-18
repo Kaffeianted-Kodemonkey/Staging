@@ -11,7 +11,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: homepage-template
-title: Kaffeinated Kodemonkey
+title: A11y Evaluation of WCAG/508 and VPAT completion for ADA Compliance
 subtitle: Web Accessibility Agency
 redirect_from:
   - /Clients
