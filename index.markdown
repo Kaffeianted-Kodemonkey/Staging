@@ -13,6 +13,7 @@
 layout: homepage-template
 title: WCAG and ADA Compliance
 subtitle: Web Accessibility Agency
+description:
 og-image: KKM-Logo.png
 url: /
 redirect_from:

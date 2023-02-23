@@ -3,14 +3,14 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>{{ site.title }} | {{ page.title }}</title>
-  <meta name="description" content="{% if page.title == 'WCAG and ADA Compliance' %}{{ site.description }}{% else %}{{page.subtitle}}{% endif %}">
+  <meta name="description" content="{% if page.title == 'WCAG and ADA Compliance' %}{{ site.description }}{% else %}{{page.description}}{% endif %}">
   <meta content="" name="keywords">
 
   <!-- OG meta tags -->
   <meta property="og:title" content="{{ site.title }} | {{ page.title }}" >
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.og-image }}">
-  <meta property="og:description" content="{{ page.subtitle }}" />
+  <meta property="og:description" content="{{ page.description }}" />
 
   <!-- Favicons -->
   <link href="{{site.url}}/assets/img/kkm-favicon.png" rel="icon">
