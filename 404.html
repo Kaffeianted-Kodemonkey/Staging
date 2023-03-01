@@ -3,13 +3,37 @@ permalink: /404.html
 layout: inner-pages
 title: 404
 subtitle: Page not found :(
-url: /404
+description: The following page was not found
+url: /
+category: Services
 redirect_from:
   - /COVID-19
 ---
-
-
 <div class="container">
+  <div class="row">
+    <div class="col-8">
+      <h2>OOP! Let's see what happend</h2>
 
-  <p>The requested page could not be found.</p>
+      <p>There are a few reason you could have ended up here:</p>
+      <ol>
+        <li><strong>Page redirect or not found:</strong> You found an old link, we did a revamp and some urls changed our team is working on that.</li>
+        <li><strong>Retired:</strong> SEO services have been has been tabled to focue of accessibility. Maybe we will bring it back in time.</li>
+        <li><strong>True 404:</strong> Grimlems got in the system and Something is wrong and we would like to know.</li>
+      </ol>
+    </div>
+    <div class="col">
+      <h2>Current Services</h2>
+      <ul>
+        <li><a href="{{site.url}}/A11y-Audit.html">A11y Audit</a></li>
+        <li><a href="{{sige.url}}/POC-Certification.html">POC Certification</a></li>
+        <li><a href="{{site.url}}/Team-Monitoring.html">Team Monitoring</a></li>
+        <li><a href="{{site.url}}/Agency-Monitoring.html">Agency Monitoring</a></li>
+        <li><a href="{{site.url}}/A11y-WebDesign.html">A11y Website Design</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ======= Contact Section ======= -->
+
+  {% include contact.html %}
 </div>

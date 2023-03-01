@@ -3,6 +3,17 @@
 /* These are designer added or mondifies styles from the main styles.
    Enter your custom style below */
 
+
+/* Skip link */
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 /* blockquote background color */
 .bg-kkm-blue{
   background-color: #37517E;
@@ -74,4 +85,11 @@ ul.no-bullets {
 
 .credits a:hover{
   color: #6BC1E9;
+}
+
+
+/* inner page sections */
+
+section #audit-header, #EnvTerm, #report, #Score {
+  
 }

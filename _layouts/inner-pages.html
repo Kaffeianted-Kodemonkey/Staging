@@ -10,12 +10,13 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
+      <div class="container mt-3">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="{{site.url}}">Home</a></li>
           <li>{{ page.title }}</li>
         </ol>
+
         <h2>{{ page.title }}</h2>
 
       </div>
@@ -27,7 +28,8 @@
           {% include sidebar-left.html %}
         </div>
         <div class="col-9 mt-1 ps-5 pe-5">
-          <h2 class="mb-3">{{ page.subtitle }}</h2>
+
+
           {{ content }}
 
           <hr>
