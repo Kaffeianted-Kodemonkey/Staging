@@ -1,66 +1,64 @@
-<aside>
-  <div class="row text-center">
-    <div class="col">
-      <figure>
-        {% if page.title == "About" %}
-          <img src="{{site.url}}/assets/img/KKM-Logo.png" alt="Kaffeinated Kodemonkey" width="50%" class="mb-3"/>
-          <figcaption>
-            <h3>Owner | A11y Dev</h3>
-            <p><strong>Trusted Tester ID: TT-2311-03604</strong>
-          </figcaption>
-          <!-- Certificaions -->
-        {% elsif page.category == "Services" %}
-          <img src="{{site.url}}/assets/img/certificationLogo.png" width="55%" alt="POCC">
-        {% elsif page.category == "KKM-POCC" %}
-          <img src="{{site.url}}/assets/img/POCC-Seal.png" alt="POCC Seal" width="43%">
-        {% else %}
-          <img src="{{site.url}}/assets/img/A11y-eval.png" width="75%" alt="Accessibility Evaluation">
-        {% endif %}
-      </figure>
-    </div>
+<div class="row">
+  <div class="col">
+    <figure>
+      {% if page.title == "About" %}
+        <img src="{{site.url}}/assets/img/KKM-Logo.png" alt="Kaffeinated Kodemonkey" width="50%" class="mb-3"/>
+        <figcaption>
+        <h3>Owner | A11y Dev</h3>
+        <p><strong>Trusted Tester ID: TT-2311-03604</strong>
+        </figcaption>
+      <!-- Certificaions -->
+      {% elsif page.category == "Services" %}
+        <img src="{{site.url}}/assets/img/certificationLogo.png" width="55%" alt="POCC">
+      {% elsif page.category == "KKM-POCC" %}
+        <img src="{{site.url}}/assets/img/POCC-Seal.png" alt="POCC Seal" width="43%">
+      {% else %}
+        <img src="{{site.url}}/assets/img/A11y-eval.png" width="75%" alt="Accessibility Evaluation">
+      {% endif %}
+    </figure>
   </div>
+</div>
 
-  <hr>
-  <div class="row ms-5 ps-5">
-    <div class="col">
-      {% if page.category == 'Services' %}
-        <h3>Accessibility Services</h3>
-          <ul class="ms-2">
-            <li><a href="{{site.url}}/A11y-Audit.html" {% if page.title == "A11y Audit" %} class="isDisabled" {% endif %}>A11y Audit</a></li>
-            <li><a href="{{site.url}}/POC-Certification.html" {% if page.title == "Proof of Compliance Certification" %} class="isDisabled" {% endif %}>POC Certification</a></li>
-            <li><a href="{{site.url}}/Team-Monitoring.html" {% if page.title == "Team Monitoring" %} class="isDisabled" {% endif %}>Team Monitoring</a></li>
-            <li><a href="{{site.url}}/Agency-Monitoring.html" {% if page.title == "Agency Monitoring" %} class="isDisabled" {% endif %}>Agency Monitoring</a></li>
-            <li><a href="{{site.url}}/A11y-WebDesign.html" {% if page.title == "A11y Web Design" %} class="isDisabled" {% endif %}>A11y Website Design</a></li>
-        </ul>
-      {% elsif page.category == 'Policies' %}
+<hr>
+
+<div class="row">
+  <div class="col-sm-6 col-lg-5">
+    {% if page.category == 'Services' %}
+      <h3>Accessibility Services</h3>
+      <ul class="ms-2">
+        <li><a href="{{site.url}}/A11y-Audit.html" {% if page.title == "A11y Audit" %} class="isDisabled" {% endif %}>A11y Audit</a></li>
+        <li><a href="{{site.url}}/POC-Certification.html" {% if page.title == "Proof of Compliance Certification" %} class="isDisabled" {% endif %}>POC Certification</a></li>
+        <li><a href="{{site.url}}/Team-Monitoring.html" {% if page.title == "Team Monitoring" %} class="isDisabled" {% endif %}>Team Monitoring</a></li>
+        <li><a href="{{site.url}}/Agency-Monitoring.html" {% if page.title == "Agency Monitoring" %} class="isDisabled" {% endif %}>Agency Monitoring</a></li>
+        <li><a href="{{site.url}}/A11y-WebDesign.html" {% if page.title == "A11y Web Design" %} class="isDisabled" {% endif %}>A11y Website Design</a></li>
+      </ul>
+    {% elsif page.category == 'Policies' %}
       <h3>Policies</h3>
-        <ul class="ms-2">
+      <ul class="ms-2">
         <li><a href="{{site.url}}/TOS.html" {% if page.title == "Terms of Service" %} class="isDisabled" {% endif %}>Terms of Service</a></li>
         <li><a href="{{site.url}}/Privacy-Policy.html" {% if page.title == "Privacy Policy" %} class="isDisabled" {% endif %}>Privacy Policy</a></li>
         <li><a href="{{site.url}}/Disclaimer.html" {% if page.title == "Disclaimer" %} class="isDisabled" {% endif %}>Disclaimer</a></li>
       </ul>
-      {% elsif page.category == 'KKM-POCC' %}
-        <h3>POC Certification</h3>
-        <ul>
-          <li><a href="{{site.url}}/POC-Certificate.html">POC Certificate</a></li>
-          <li><a href="{{site.url}}/A11y-Statement.html">A11y Statement</a></li>
-          <li><a href="{{site.url}}/A11y-Audit-Report.html">A11y Audit Report</a></li>
-          <li><a href="{{site.url}}/A11y-Compliance-Report.html">A11y Conformance Report</a></li>
-
-        </ul>
-      {% endif %}
-    </div>
-  </div>
-
-  <hr>
-  <div class="row ms-5 ps-5">
-    <div class="col">
-      <h3>Affiliates</h3>
-      <ul class="no-bullets">
-        <li><a href="https://prz.io/149K6enU0" target="_blank" rel="nofollow"><img src="{{site.url}}/assets/img/affiliates/Black-Rifle-Coffee.png" width="91%" alt="Black Rifle Coffee"></a></li>
-        <li class="pt-2"><a href="https://mudwtr.com/?rfsn=5657995.6e61db9.91385" target="_blank"><img src="{{ site.url }}/assets/img/mud-water.png" alt="Mud Water"></a></li>
-        <!-- <li><a href="https://www.link-assistant.com/buy.html?id=SPS_PRO_YEAR&referral=d56d9562ec18e8f907776ee183a5e84a" target="_blank"><img src="" alt="SEO PowerSuite"></a></li> -->
+    {% elsif page.category == 'KKM-POCC' %}
+      <h3>POC Certification</h3>
+      <ul>
+        <li><a href="{{site.url}}/POC-Certificate.html">POC Certificate</a></li>
+        <li><a href="{{site.url}}/A11y-Statement.html">A11y Statement</a></li>
+        <li><a href="{{site.url}}/A11y-Audit-Report.html">A11y Audit Report</a></li>
+        <li><a href="{{site.url}}/A11y-Compliance-Report.html">A11y Conformance Report</a></li>
       </ul>
-    </div>
+    {% endif %}
   </div>
-</aside>
+</div>
+
+<hr>
+<div class="row d-none d-md-block">
+  <div class="col">
+    <h3>Affiliates</h3>
+    <ul class="no-bullets">
+      <li><a href="https://prz.io/149K6enU0" target="_blank" rel="nofollow"><img src="{{site.url}}/assets/img/affiliates/Black-Rifle-Coffee.png" width="91%" alt="Black Rifle Coffee"></a></li>
+      <li class="pt-2"><a href="https://mudwtr.com/?rfsn=5657995.6e61db9.91385" target="_blank"><img src="{{ site.url }}/assets/img/mud-water.png" alt="Mud Water"></a></li>
+      <!-- <li><a href="https://www.link-assistant.com/buy.html?id=SPS_PRO_YEAR&referral=d56d9562ec18e8f907776ee183a5e84a" target="_blank"><img src="" alt="SEO PowerSuite"></a></li> -->
+    </ul>
+  </div>
+</div>

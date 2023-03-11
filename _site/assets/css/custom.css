@@ -3,6 +3,11 @@
 /* These are designer added or mondifies styles from the main styles.
    Enter your custom style below */
 
+/* aside */
+#lsidebar {
+  margin: 2em;
+}
+
 
 /* Skip link */
 .skip {
@@ -91,5 +96,5 @@ ul.no-bullets {
 /* inner page sections */
 
 section #audit-header, #EnvTerm, #report, #Score {
-  
+
 }
