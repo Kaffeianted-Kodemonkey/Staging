@@ -2,92 +2,104 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
    <url>
       <loc>https://www.kaffeinatedkodemonkey.com/</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://www.kaffeinatedkodemonkey.com/A11y-WebDesign.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
-      <priority>0.5</priority>
-   </url>
-   <url>
-      <loc>https://www.kaffeinatedkodemonkey.com/A11y-Audit.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
-      <priority>0.5</priority>
-   </url>
-   <url>
       <loc>https://www.kaffeinatedkodemonkey.com/Disclaimer.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
-      <priority>0.5</priority>
-   </url>
-   <url>
-      <loc>https://www.kaffeinatedkodemonkey.com/TOS.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.kaffeinatedkodemonkey.com/Privacy-Policy.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
-      <loc>https://www.kaffeinatedkodemonkey.com/POC-Certificate.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <loc>https://www.kaffeinatedkodemonkey.com/TOS.html</loc>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.kaffeinatedkodemonkey.com/A11y-Compliance.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
-      <loc>https://www.kaffeinatedkodemonkey.com/Agency-Monitoring.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <loc>https://www.kaffeinatedkodemonkey.com/POCC.html</loc>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.kaffeinatedkodemonkey.com/A11y-WebDesign.html</loc>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.kaffeinatedkodemonkey.com/A11y-Monitoring.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.kaffeinatedkodemonkey.com/POC-Certificate.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
-      <loc>https://www.kaffeinatedkodemonkey.com/A11y-Compliance-Report.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <loc>https://www.kaffeinatedkodemonkey.com/A11y-Audit.html</loc>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.kaffeinatedkodemonkey.com/About.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.kaffeinatedkodemonkey.com/W3C-Accessibility-Video.html</loc>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.kaffeinatedkodemonkey.com/A11y-Audit-Report.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.kaffeinatedkodemonkey.com/A11y-Statement.html</loc>
-      <lastmod>2023-03-01</lastmod>
-      <changefreq>hourly</changefreq>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.kaffeinatedkodemonkey.com/A11y-Compliance-Report.html</loc>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.kaffeinatedkodemonkey.com/Agency-Monitoring.html</loc>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.kaffeinatedkodemonkey.com/Blog.html</loc>
+      <lastmod>2023-05-21</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.5</priority>
    </url>
 </urlset>
