@@ -11,9 +11,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: homepage-template
-title: Web Accessibility and ADA Compliance Audits
+title: Web Accessibility and ADA Audits
 subtitle: Web Accessibility Agency
-description: Enhance web accessibility. Achieve ADA & WCAG compliance and train your team on guidelines!
+description: Enhance web accessibility with ADA audits and WCAG training through our monitoring platform.
 og-image: KKM-Logo.png
 url: /
 redirect_from:
