@@ -13,7 +13,7 @@
 layout: homepage-template
 title: Web Accessibility and ADA Compliance Audits
 subtitle: Web Accessibility Agency
-description: Boost web accessibility with our comprehensive auditing services. Achieve ADA & WCAG compliance, train your team on guidelines & POUR principles. Enhance website accessibility today!
+description: Enhance website accessibility with our comprehensive audits. Achieve ADA & WCAG compliance, train your team on guidelines & POUR principles. Boost accessibility now!
 og-image: KKM-Logo.png
 url: /
 redirect_from:
