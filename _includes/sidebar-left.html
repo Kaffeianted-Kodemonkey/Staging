@@ -9,7 +9,7 @@
         </figcaption>
       <!-- Certificaions -->
       {% elsif page.category == "Services" %}
-        <img src="{{site.url}}/assets/img/certificationLogo.png" width="55%" alt="POCC">
+        <img src="{{site.url}}/assets/img/certificationLogo.png" width="55%" alt="POC Certificate">
       {% elsif page.category == "KKM-POCC" %}
         <img src="{{site.url}}/assets/img/POCC-Seal.png" alt="POCC Seal" width="43%">
       {% else %}
@@ -27,9 +27,8 @@
       <h3>A11y Services</h3>
       <ul class="ms-2">
         <li><a href="{{site.url}}/A11y-Audit.html" {% if page.title == "A11y Audit" %} class="isDisabled" {% endif %}>A11y Audit</a></li>
-        <li><a href="{{site.url}}/POC-Certification.html" {% if page.title == "Proof of Compliance Certification" %} class="isDisabled" {% endif %}>POC Certification</a></li>
+        <li><a href="{{site.url}}/POC-Certificate.html" {% if page.title == "Proof of Compliance Certificate" %} class="isDisabled" {% endif %}>POC Certificate</a></li>
         <li><a href="{{site.url}}/A11y-Monitoring.html" {% if page.title == "A11y Monitoring" %} class="isDisabled" {% endif %}>A11y Monitoring</a></li>
-        <li><a href="{{site.url}}/Agency-Monitoring.html" {% if page.title == "Agency Monitoring" %} class="isDisabled" {% endif %}>Agency Monitoring</a></li>
         <li><a href="{{site.url}}/A11y-WebDesign.html" {% if page.title == "A11y Web Design" %} class="isDisabled" {% endif %}>A11y Website Design</a></li>
       </ul>
     {% elsif page.category == 'Policies' %}
@@ -40,9 +39,9 @@
         <li><a href="{{site.url}}/Disclaimer.html" {% if page.title == "Disclaimer" %} class="isDisabled" {% endif %}>Disclaimer</a></li>
       </ul>
     {% elsif page.category == 'KKM-POCC' %}
-      <h3>POC Certification</h3>
+      <h3>POC Certificate</h3>
       <ul>
-        <li><a href="{{site.url}}/POC-Certificate.html">POC Certificate</a></li>
+        <li><a href="{{site.url}}/POCC.html">POC Certificate</a></li>
         <li><a href="{{site.url}}/A11y-Statement.html">A11y Statement</a></li>
         <li><a href="{{site.url}}/A11y-Audit-Report.html">A11y Audit Report</a></li>
         <li><a href="{{site.url}}/A11y-Compliance-Report.html">A11y Conformance Report</a></li>

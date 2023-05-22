@@ -28,6 +28,15 @@
   text-decoration: none;
 }
 
+.border-primary {
+  border-color: #C70508 !important;
+}
+
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: #D5393C !important;
+}
+
 /****** FAQ links in accordion *****/
 .faq-link a {
   font-family: "Poppins", sans-serif;
