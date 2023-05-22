@@ -11,7 +11,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: homepage-template
-title: WCAG and ADA Compliance
+title: Web Accessibility and ADA Compliance Audits
 subtitle: Web Accessibility Agency
 description:
 og-image: KKM-Logo.png
