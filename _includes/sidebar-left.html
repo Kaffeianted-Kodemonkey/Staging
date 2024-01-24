@@ -15,7 +15,7 @@
       {% elsif page.title == "A11y Monitoring" %}
         <img src="{{site.url}}/assets/img/monitoring.png" width="52%" alt="Accessibility Monitoring">
       {% elsif page.category == "KKM-POCC" %}
-        <img src="{{site.url}}/assets/img/POCC-Seal.png" alt="POCC Seal" width="43%">
+        <img src="{{site.url}}/assets/img/POCC-Seal.png" width="43%" alt="POCC Seal">
       {% else %}
         <img src="{{site.url}}/assets/img/A11y-eval.png" width="75%" alt="Accessibility Evaluation">
       {% endif %}
@@ -50,6 +50,9 @@
         <li><a href="{{site.url}}/AEA-Report.html">A11y Evaluation Audit <em>(AEA)</em> -  Report</a></li>
         <li><a href="{{site.url}}/A11y-Compliance-Report.html">A11y Conformance Report</a></li>
       </ul>
+    {% elsif page.category == 'blog' %}
+      <h3>Chatter</h3>
+      <p>Inprogress will be updated soon</p>
     {% endif %}
   </div>
 </div>
