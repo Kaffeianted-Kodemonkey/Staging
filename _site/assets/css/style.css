@@ -135,7 +135,7 @@ body {
 }
 
 a {
-  color: #176E97 /*#1A7EAD /*#C4C4C4 /*#47b2e4*/;
+  color: #000080 /*#176E97 /*#1A7EAD /*#C4C4C4 /*#47b2e4*/;
   text-decoration: none;
 }
 
@@ -143,6 +143,7 @@ a:hover {
   color: #73c5eb;
   text-decoration: none;
 }
+
 
 h1,
 h2,
@@ -1882,6 +1883,7 @@ section {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+  color: #000080;
 }
 
 #footer .footer-top .footer-links ul {
@@ -1908,7 +1910,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #5573B4 /*#777777*/;
+  color: #000080 /*#777777*/;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
