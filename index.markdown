@@ -11,9 +11,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: homepage-template
-title: Web Accessibility and ADA Audits
+title: WCAG Compliant and Certification for local government, educational, and public sectors.
 subtitle: Web Accessibility Agency
-description: Enhance web accessibility with ADA audits, POC Certificate paird with an Accessibility monitoring platform.
+description: Become ADA compliant with an A11y Audit and POC Certificate or pair it with our A11y Monitoring platform.
 og-image: KKM-Logo.png
 url: /
 redirect_from:
