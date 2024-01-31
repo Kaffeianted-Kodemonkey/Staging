@@ -11,7 +11,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: homepage-template
-title: Accessibility Compliance; WCAG/VPAT for Gov, Edu & Public Sectors.
+title: WCAG Accessibility Compliance for Gov, Edu & Public Sectors.
 subtitle: Web Accessibility Agency
 description: Understand WCAG/VPAT for government, education, and public sectors. Ensure web accessibility compliance with Section 508 and WCAG POUR principles. Align with web accessibility guidelines for local governments.
 og-image: KKM-Logo.png
