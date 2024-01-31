@@ -11,7 +11,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: homepage-template
-title: WCAG Compliant and Certification for local government, educational, and public sectors.
+title: WCAG Compliant for local government, educational, and public sectors.
 subtitle: Web Accessibility Agency
 description: Become ADA compliant with an A11y Audit and POC Certificate or pair it with our A11y Monitoring platform.
 og-image: KKM-Logo.png
