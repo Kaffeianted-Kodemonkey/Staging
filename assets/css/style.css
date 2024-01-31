@@ -324,14 +324,14 @@ h6 {
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #c94f1f;
   font-weight: 600;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #31a9e1;
+  background: #c94f1f;
 }
 
 .navbar .dropdown ul {
@@ -1711,16 +1711,16 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #47b2e4;
+  background: #37517E;
   border: 0;
   padding: 12px 34px;
-  color: #2B3C5F /*#fff*/;
+  color: #ffffff /*#fff*/;
   transition: 0.4s;
   border-radius: 50px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #209dd8;
+  background: #5c7fbc;
 }
 
 @-webkit-keyframes animate-loading {
