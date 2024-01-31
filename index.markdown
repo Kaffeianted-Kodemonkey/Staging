@@ -11,9 +11,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: homepage-template
-title: Web Accessibility for Local Governments, Education, Public Sectors.
+title: ADA Compliance for Local Governments, Education, Public Sectors.
 subtitle: Web Accessibility Agency
-description: Boost local governments ROI through WAG POUR principles, web accessibility guidelines (WCAG), and Section 508 to meet ADA compliance.
+description: Boost local governments' ROI by applying WCAG POUR principles, web accessibility guidelines (WCAG), and Section 508 for ADA compliance success.
 og-image: KKM-Logo.png
 url: /
 redirect_from:
