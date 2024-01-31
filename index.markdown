@@ -13,7 +13,7 @@
 layout: homepage-template
 title: Accessibility Compliance; WCAG/VPAT for Gov, Edu & Public Sectors.
 subtitle: Web Accessibility Agency
-description: Become ADA compliant with an A11y Audit and POC Certificate or pair it with our A11y Monitoring platform.
+description: Understand WCAG/VPAT for government, education, and public sectors. Ensure web accessibility compliance with Section 508 and WCAG POUR principles. Align with web accessibility guidelines for local governments.
 og-image: KKM-Logo.png
 url: /
 redirect_from:
