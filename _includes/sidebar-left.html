@@ -38,6 +38,7 @@
     {% elsif page.category == 'Policies' %}
       <h3>Policies</h3>
       <ul class="ms-2">
+        <li><a href="{{site.url}}/Accessibility.html" {% if page.title == "Accessibility" %} class="isDisabled" {% endif %}>A11y Compliance</a></li>
         <li><a href="{{site.url}}/TOS.html" {% if page.title == "TOS" %} class="isDisabled" {% endif %}>Terms of Service</a></li>
         <li><a href="{{site.url}}/Privacy-Policy.html" {% if page.title == "Privacy Policy" %} class="isDisabled" {% endif %}>Privacy Policy</a></li>
         <li><a href="{{site.url}}/Disclaimer.html" {% if page.title == "Disclaimer" %} class="isDisabled" {% endif %}>Disclaimer</a></li>
@@ -45,9 +46,9 @@
     {% elsif page.category == 'KKM-POCC' %}
       <h3>POC Certificate</h3>
       <ul>
-        <li><a href="{{site.url}}/Accessibility.html" {% if page.title == "Accessibility" %} class="isDisabled" {% endif %}>Accessibility </a></li>
-        <li><a href="{{site.url}}/A11y-Statement.html" {% if page.title == "A11y Statement" %} class="isDisabled" {% endif %}>A11y Statement</a></li>
+        <li><a href="{{site.url}}/Accessibility.html" {% if page.title == "Accessibility" %} class="isDisabled" {% endif %}>ADA Compliance </a></li>
         <li><a href="{{site.url}}/AEA-Report.html" {% if page.title == "AEA - Report" %} class="isDisabled" {% endif %}>AEA -  Report</a></li>
+        <li><a href="{{site.url}}/A11y-Statement.html" {% if page.title == "A11y Statement" %} class="isDisabled" {% endif %}>A11y Statement</a></li>
         <li><a href="{{site.url}}/A11y-Compliance-Report.html" {% if page.title == "A11y Compliance Report" %} class="isDisabled" {% endif %}>A11y Conformance Report</a></li>
       </ul>
     {% elsif page.category == 'blog' %}
