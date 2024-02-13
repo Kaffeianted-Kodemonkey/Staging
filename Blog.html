@@ -3,22 +3,62 @@ layout: inner-pages
 title: Blog
 subtitle: Kodemonkey Chatter
 description: Hints and Tips to be A11y
-url: /Blog
-category: blog
-redirect_from:
-  - /Marketing/Blog
-  - /press-release
+permalink: Blog
+categories: blog
 ---
-<h2 class="mb-3">{{ page.subtitle }}</h2>
+<h1 class="text-center mb-5">{{ page.subtitle }}</h1>
+<h3 class="mb-3">Welcome to our Web Accessibility Series!</h3>
 
-<br>
-<br>
+<p>At Kaffeinated Kodemonkey, we're dedicated to making the web accessible to everyone. Our blog series is your go-to
+resource for all things related to web accessibility. Whether you're a developer, designer, accessibiltiy specialist
+or just interested in learning more, we've got you covered.</p>
 
-<h3 class="mb-1">We are in the process of adding new blogs and moving over the old ones.</h3>
+<p>Join us as we explore the importance of web accessibility, discuss key principles, share practical tips, and highlight
+real-world examples. Together, let's work towards a more inclusive digital future.</p>
 
+<p>Stay tuned for our upcoming posts and subscribe to our newsletter for the latest updates.</p>
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<hr class="mt-5 mb-5" />
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <!-- {{ post.excerpt }} -->
+    </li>
+  {% endfor %}
+</ul>
+<hr class="mt-5 mb-5" />
+
+<div class="row">
+  <div class="col-4">
+    <div class="card" style="width: 25rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title text-center">Foundational Concepts: <br> Building a Solid Framework</h4>
+        <p class="card-text">Unlock the essence of web accessibility principles. Discover the core elements for an inclusive digital realm.</p>
+        <a href="{{ post.url }}/foundational-concepts" class="btn btn-primary">Follow Series</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-4">
+    <div class="card" style="width: 25rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title text-center">Best Practices: <br> Crafting Accessible Experiences</h4>
+        <p class="card-text">Actionable tips and techniques for inclusive design. Create delightful digital experiences for all users.</p>
+        <a href="#" class="btn btn-primary">Follow Series</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" style="width: 25rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title text-center">Advocacy and Trends: <br> Driving Change</h4>
+        <p class="card-text">Spotlight accessibility champions and emerging trends.Drive meaningful change in the digital landscape.</p>
+        <a href="#" class="btn btn-primary">Follow Series</a>
+      </div>
+    </div>
+  </div>
+</div>
