@@ -1,6 +1,73 @@
-layout: default
----
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<!DOCTYPE html>
+<html lang="en">
 
-{{ content }}
+{% include head.html %}
+<body>
+
+  {% include header.html %}
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container-fluid mt-3">
+
+        <ol>
+          <li><a href="{{site.url}}">Home</a></li>
+          <li>{{ page.title }}</li>
+        </ol>
+
+        <h1>{{ page.categories }}</h1>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <div class="container-fluid mb-5">
+      <div class="row mt-5">
+        <div class="col-lg-3 px-5">
+          {% include sidebar-left.html %}
+        </div>
+        <div class="col-lg-8 mb-3 fs-5">
+
+
+          <h2 class= "mt-3">{{ page.title }}</h2>
+          <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+          {% assign count = site.categories[page.categories] | size %}
+
+          <hr class="my-3" />
+
+          {% if count == 0 %}
+            <h3 class="text-center">Currently writing post check back often.</h3>
+          {% else %}
+            <ul>
+            {% for post in site.categories[page.categories] %}
+                <li>
+                  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                  <p class="mb-2"><small> <u>{{ post.date | date: '%B %d, %Y' }} | {{site.author}}</u></small></p>
+                  {{ post.excerpt | strip_html | truncatewords:25 }}
+                </li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+
+          <hr >
+
+          {{ content }}
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- ======= Cta Section ======= -->
+
+   {% include cta.html %}
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  {% include footer.html %}
+
+</body>
+
+</html>

@@ -40,7 +40,10 @@ TTID: TT-2311-03604
 markdown: kramdown
 theme: minima
 
-categories: [Service, KKM-POCC, Policies]
+#categories: [Service, KKM-POCC, Policies]
+permalink: /blog/:title
+
+
 
 plugins:
   - jekyll-feed
@@ -48,7 +51,7 @@ plugins:
 
 excerpt_separator: <!--more-->
 
-future: false
+future: ture
 
 
 # Exclude from processing.
