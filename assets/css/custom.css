@@ -154,3 +154,22 @@ ul.no-bullets {
 section #audit-header, #EnvTerm, #report, #Score {
 
 }
+
+.infograph-fcw1 {
+  background-color: transparent;
+  background-image: url("/assets/img/blog-series/WCAG_Blog1_background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 5%;
+  /*width: 25%;*/
+}
+
+.newsletter{
+  color: #1E2031;
+  position: absolute;
+  top: 165%;
+  left: 78%;
+  /*margin-top: 153%;
+  max-height: 153%;
+  margin-left: 50px;*/
+}

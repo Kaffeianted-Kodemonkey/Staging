@@ -1,34 +1,12 @@
 <div class="row">
   <div class="col">
-    <figure>
-      {% if page.title == "About" %}
-        <img src="{{site.url}}/assets/img/KKM-Logo.png" alt="Kaffeinated Kodemonkey" width="50%" class="mb-3"/>
-        <figcaption>
-          <h3>Owner | A11y Dev</h3>
-          <p><strong>Trusted Tester ID: TT-2311-03604</strong>
-        </figcaption>
-      <!-- Certificaions -->
-      {% elsif page.title == "Accessibility Audit" %}
-        <img src="{{site.url}}/assets/img/audit.png" class="p-2 m-5" width="50%" alt="POC Audit">
-      {% elsif page.title == "POC Certificate" %}
-        <img src="{{site.url}}/assets/img/certificat.png" width="55%" alt="POC Certificate">
-      {% elsif page.title == "A11y Monitoring" %}
-        <img src="{{site.url}}/assets/img/monitoring.png" width="52%" alt="Accessibility Monitoring">
-      {% elsif page.category == "KKM-POCC" %}
-        <img src="{{site.url}}/assets/img/POCC-Seal.png" width="43%" alt="POCC Seal">
-      {% else %}
-        <img src="{{site.url}}/assets/img/A11y-eval.png" width="75%" alt="Accessibility Evaluation">
-      {% endif %}
-    </figure>
-  </div>
-</div>
+    <!-- <img src="{{site.url}}/assets/img/{{page.og-image}}" width="100%" alt="{{page.caption}}">
 
-<hr>
+    <hr /> -->
 
-<div class="row">
-  <div class="col">
+    <h3>{{page.category}}</h3>
     {% if page.category == 'Services' %}
-      <h3>A11y Services</h3>
+
       <ul class="ms-2">
         <li><a href="{{site.url}}/A11y-Audit.html" {% if page.title == "A11y Audit" %} class="isDisabled" {% endif %}>A11y Audit</a></li>
         <li><a href="{{site.url}}/POC-Certificate.html" {% if page.title == "Proof of Compliance Certificate" %} class="isDisabled" {% endif %}>POC Certificate</a></li>
@@ -55,10 +33,11 @@
       <h3>Chatter</h3>
       <p>Inprogress will be updated soon</p>
     {% endif %}
+    <hr />
   </div>
 </div>
 
-<hr>
+
 <div class="row d-none d-lg-block">
   <div class="col">
     <h3>Affiliates</h3>
