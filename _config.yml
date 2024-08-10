@@ -18,41 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Kaffeinated Kodemonkey
-author: The Kodemonkeo
-email: info@kaffeinatedkodemonkey.com
-phone: (970) 757-2222
+title: Your awesome title
+email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Kaffeinated Kodemonkey is an accessibility agency helping government and educational organizations meet WCAG requirments and reach ADA compliant status.
-
-keywords: VPAT, POC Certifications, POCC, Team Monitoring, Agency Monitoring, wcag, section 508, ada compliance, web accessibility,
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.kaffeinatedkodemonkey.com" # the base hostname & protocol for your site, e.g. http://example.com
-
-twitter: https://twitter.com/kfn8dKodeMonkey
-github:  https://github.com/kfn8dkodemonkey
-linkedin: https://www.linkedin.com/in/kaffeinatedkodemonkey/
-
-A11yDev: Heather Welsh
-TTID: TT-2311-03604
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-markdown: kramdown
 theme: minima
-
-#categories: [Service, KKM-POCC, Policies]
-permalink: /blog/:title
-
-
-
 plugins:
   - jekyll-feed
-  - jekyll-redirect-from
-
-excerpt_separator: <!--more-->
-
-future: ture
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
