@@ -1,0 +1,175 @@
+
+/* Custom styles */
+/* These are designer added or mondifies styles from the main styles.
+   Enter your custom style below */
+
+
+/* Skip link */
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* blockquote background color */
+.bg-kkm-blue{
+  background-color: #37517E;
+  margin: 40px 100px;
+  padding: 25px;
+}
+
+/* disable url/nav link */
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+btn:first-child:hover, :not(.btn-check)+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #37517e;
+    --bs-btn-border-color: #37517e;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #37517e;
+    --bs-btn-hover-border-color: #37517e;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #37517e;
+    --bs-btn-active-border-color: #37517e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #37517e;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #37517e;
+    --bs-gradient: none;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #37517e;
+    --bs-btn-border-color: #37517e;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #37517e;
+    --bs-btn-hover-border-color: #37517e;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #37517e;
+    --bs-btn-active-border-color: #37517e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.btn-outline-warning {
+    --bs-btn-color: #ffc107;
+    --bs-btn-border-color: #ffc107;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #ffc107;
+    --bs-btn-hover-border-color: #ffc107;
+    --bs-btn-focus-shadow-rgb: 255,193,7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #ffc107;
+    --bs-btn-active-border-color: #ffc107;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #ffc107;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #ffc107;
+    --bs-gradient: none;
+}
+
+/****** FAQ links in accordion *****/
+.faq-link a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+}
+
+/************************************/
+
+.dubble-line {
+  text-decoration-line: underline;
+  text-decoration-color: /*#47B2E4*/ #37517e;
+  text-decoration-style: double;
+  text-decoration-thickness: 2px;
+}
+
+.dubble-line a{
+  color: #37517e /*#216ED4*/;
+}
+
+.dubble-line a:hover{
+  color: #47B2E4;
+}
+
+/****************************/
+/** Remove bulltes in uls **/
+/***************************/
+ul.no-bullets {
+ list-style-type: none; /* Remove bullets */
+ padding: 0; /* Remove padding */
+ margin: 0; /* Remove margins */
+}
+
+/* blue checkmark */
+.check-color {
+  color: #47b2e4;
+}
+/***************************/
+/* footer email link       */
+/***************************/
+#footer .footer-top .info .booking .footer-links a{
+  color: #5573B4 /*#777777*/;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .info .booking .footer-links a:hover {
+  text-decoration: none;
+  color: #47b2e4;
+}
+
+.credits a{
+  color: #BBC5DD /*#777777*/;
+}
+
+.credits a:hover{
+  color: #6BC1E9;
+}
+
+
+/* inner page sections */
+
+section #audit-header, #EnvTerm, #report, #Score {
+
+}
+
+.infograph-fcw1 {
+  background-color: transparent;
+  background-image: url("/assets/img/blog-series/WCAG_Blog1_background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 5%;
+  /*width: 25%;*/
+}
+
+.newsletter{
+  color: #1E2031;
+  position: absolute;
+  top: 165%;
+  left: 78%;
+  /*margin-top: 153%;
+  max-height: 153%;
+  margin-left: 50px;*/
+}
