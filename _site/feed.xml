@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-12T07:43:14-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Advocacy Trends</title><link href="http://localhost:4000/Advocacy_Trends_Series/test" rel="alternate" type="text/html" title="Advocacy Trends" /><published>2024-07-28T09:04:14-06:00</published><updated>2024-07-28T09:04:14-06:00</updated><id>http://localhost:4000/Advocacy_Trends_Series/test</id><content type="html" xml:base="http://localhost:4000/Advocacy_Trends_Series/test"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-12T07:44:28-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Advocacy Trends</title><link href="http://localhost:4000/Advocacy_Trends_Series/test" rel="alternate" type="text/html" title="Advocacy Trends" /><published>2024-07-28T09:04:14-06:00</published><updated>2024-07-28T09:04:14-06:00</updated><id>http://localhost:4000/Advocacy_Trends_Series/test</id><content type="html" xml:base="http://localhost:4000/Advocacy_Trends_Series/test"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
 
@@ -75,6 +75,8 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
   </div>
 </div>
 
+<hr />
+
 <div class="row">
   <div class="col-12">
     <h2>What’s New in WCAG 2.2?</h2>
@@ -101,6 +103,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
     <p>Remember, these enhancements don’t just benefit users with disabilities—they also improve your site’s overall usability and SEO.</p>
 
+    <hr />
     <h3>Looking Ahead: The Future of Web Accessibility with WCAG 3.0</h3>
     <p>The upcoming WCAG 3.0 promises to provide even more comprehensive guidelines for making digital content accessible to everyone. Stay informed, keep improving your accessibility practices, and be ready for the future of inclusive web design.</p>
     <p>Don’t miss out—subscribe to our blog for the latest updates on WCAG 3.0, and join us in making the web a more inclusive space for all. Want a quick overview? Check out our infographic, and stay tuned for more detailed posts on web accessibility.</p>
