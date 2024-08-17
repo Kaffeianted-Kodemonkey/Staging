@@ -8,19 +8,7 @@
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container-fluid mt-3">
-
-        <ol>
-          <li><a href="{{site.url}}">Home</a></li>
-          <li>{{ page.title }}</li>
-        </ol>
-
-        <p class="fs-3"><strong>{{ page.category }}</strong></p>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
+    {% include breadcrumbs.html %}
 
     <div class="container-fluid">
       <div class="row mt-5">

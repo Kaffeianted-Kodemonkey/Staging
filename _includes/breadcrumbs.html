@@ -1,0 +1,17 @@
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+  <div class="container-fluid mt-3">
+
+    <ol>
+      <li><a href="{{site.url}}">Home</a></li>
+      {% if page.category == "Blog Series" or page.category == "newsletter" %}
+        <li><a href="{{site.url}}/ChatterRoom">ChatterRoom</a></li>
+      
+      {% endif %}
+      <li>{{ page.title }}</li>
+    </ol>
+
+    <p class="fs-4"><strong>{{ page.category }}</strong></p>
+
+  </div>
+</section><!-- End Breadcrumbs -->

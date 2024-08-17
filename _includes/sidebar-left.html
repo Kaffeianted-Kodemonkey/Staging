@@ -4,7 +4,8 @@
 
     <hr /> -->
 
-    <h2 class="mb-3">{{page.title}}</h2>
+    <!-- <h2 class="mb-3">{{page.title}}</h2>-->
+    <hr / >
     {% if page.category == 'Services' %}
       <ul class="ms-2">
         <li><a href="{{site.url}}/A11y-Audit.html" {% if page.title == "A11y Audit" %} class="isDisabled" {% endif %}>A11y Audit</a></li>
@@ -26,16 +27,21 @@
         <li><a href="{{site.url}}/A11y-Statement.html" {% if page.title == "A11y Statement" %} class="isDisabled" {% endif %}>A11y Statement</a></li>
         <li><a href="{{site.url}}/A11y-Compliance-Report.html" {% if page.title == "A11y Compliance Report" %} class="isDisabled" {% endif %}>A11y Conformance Report</a></li>
       </ul>
-    {% elsif page.categories == 'blog' %}
+    {% elsif page.category == 'ChatterRoom' %}
+      <h4>We 'R' in The ChatterRoom</h4>
+
       {% assign posts = site.posts | where: "is_series", true | where: "series_title", page.series_title | sort: 'date' %}
 
       {% for post in posts %}
-        <ul>
-          <li>{{ post.series_title}}</li>
-        </ul>
-
-      <p>Inprogress will be updated soon</p>
+        <p class="nav-link text-secondary ps-4 mb-0">{{ post.title }}</p>
       {% endfor %}
+    {% elsif page.category == 'newsletter' %}
+      <h3>The ChatterRoom</h3>
+      <ul>
+        <li>In the ChatterRoom you can read our weekly blog series</li>
+        <li>You can join in on the discussion in the MonkeyRoom or cacth up on A11y in the New</li>
+      </ul>
+      <p class="text-center"><a href="http://localhost:4567" class="btn btn-md btn-danger">Join The Chatter</a></p>
     {% endif %}
     <hr />
   </div>

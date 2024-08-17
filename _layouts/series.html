@@ -8,21 +8,11 @@
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container-fluid mt-3">
-
-        <ol>
-          <li><a href="{{site.url}}">Home</a></li>
-          <li>{{ page.title }}</li>
-        </ol>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
+    {% include breadcrumbs.html %}
 
     <div class="container-fluid">
       <div class="row mx-3 my-3">
-        <div class="col-md-12 col-lg-2 order-md-last col-lg-first">
+        <div class="col-md-12 col-lg-3 order-md-last col-lg-first">
           <!-- Series links -->
           <hr class="border border-success border-1 opacity-25">
           <h3 class="text-success ps-4 fs-5 pb-0">{{ page.series_title | upcase }}</h3>
@@ -39,15 +29,15 @@
           {% endfor %}
 
         </div>
-        <div class="col-md-12 col-lg-10 mt-2 order-md-first order-lg-last">
+        <div class="col-md-12 col-lg-9 mt-2 order-md-first order-lg-last">
           <!-- title bar -->
           <div class="row">
-            <div class="col-md-12 col-lg-6">
+            <div class="col-md-12 col-lg-7">
               <h1 class="mt-1">{{ page.title }}</h1>
             </div>
-            <div class="col-md-12 col-lg-6">
-              <p class="text-center ms-4"><a href="{{site.url}}/newsletter" class="btn btn-md btn-danger mt-2 ms-5">Join Our Newsletter</a>
-              <a href="#" class="btn btn-md btn-danger mt-2  ms-5">Join The Discussion</a></p>
+            <div class="col-md-12 col-lg-5">
+              <p class="text-center mt-3"><a href="{{site.url}}/newsletter" class="btn btn-md btn-danger">Join Our Newsletter</a>
+              <a href="#" class="btn btn-md btn-danger ms-5">Join The Discussion</a></p>
             </div>
             <hr class="border border-success border-1 opacity-25 mt-1">
           </div>
