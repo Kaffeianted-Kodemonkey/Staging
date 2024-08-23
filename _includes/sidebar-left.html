@@ -29,8 +29,16 @@
       </ul>
     {% elsif page.category == 'ChatterRoom' %}
       <h4>We 'R' in The ChatterRoom</h4>
-      {% assign posts = site.posts %}
-      <p>{% posts.title %}</p>
+
+      {% assign posts = site.posts | where: "is_series", true | where: "series_title", page.series_title | sort: 'date' %}
+
+      {% for post in posts %}
+        {% if post.title == page.title %}
+          <p class="nav-link text-secondary ps-4 mb-0">{{ post.title }}</p>
+        {% else %}
+          <a class="nav-link text-primary-emphasis ps-4 " href="{{ post.url }}">{{ post.title }}</a>
+        {% endif %}
+      {% endfor %}
     {% elsif page.category == 'newsletter' %}
       <h3>The ChatterRoom</h3>
       <ul>
