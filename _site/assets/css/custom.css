@@ -184,3 +184,7 @@ section #audit-header, #EnvTerm, #report, #Score {
     padding: 2%;
   }
 }
+
+element.style {
+    background-color: #293C5D !important;
+}
