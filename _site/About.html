@@ -78,11 +78,7 @@
         <!-- <li><a class="nav-link scrollto " href "#portfolio">Portfolio</a></li> -->
         <li><a class="nav-link scrollto " href="http://localhost:4000/#faq">FAQ</a></li>
         <li><a class="nav-link scrollto " href="http://localhost:4000/#contact" rel="nofollow">Contact</a></li>
-<<<<<<< HEAD
         <li class="ms-5 me-5"><a class="nav-link btn btn-outline-warning pe-4" href="https://kaffeinatedkodemonkey.youcanbook.me" target="_blank" rel="nofollow">Book Free Consultation</a></li>
-=======
-        <li class="ms-5 me-5"><a class="nav-link btn btn-outline-warning pe-4" href="https://kaffeinatedkodemonkey.youcanbook.me/" target="_blank" rel="nofollow">Book Free Consultation</a></li>
->>>>>>> rollback
         <!-- <li class="ms-5 me-5"><a class="nav-link btn btn-outline-warning pe-4" href="https://kaffeinatedkodemonkey.youcanbook.me/" target="_blank" rel="nofollow">Book Free Consultation</a></li> -->
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
@@ -192,14 +188,86 @@
 
 <section id="contact" class="contact">
   <div class="container" data-aos="fade-up">
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-    <script>
-      hbspt.forms.create({
-        region: "na1",
-        portalId: "21502915",
-        formId: "435b1abf-8bfe-4703-b0e6-98ac2ec5616d"
-      });
-    </script>
+
+    <div class="section-title">
+      <h2>Contact</h2>
+      <p>Please allow 2 - 4 business days on a responce.
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-5 d-flex align-items-stretch">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location:</h4>
+            <p>Rangely, Co, United States</p>
+          </div>
+
+          <div class="hours">
+            <i class="bi-hourglass"></i>
+            <h4>Hours:</h4>
+            <p><strong>M-Th:</strong> 8 AM - 4 PM MST <br>
+            <strong>Friday:</strong> By Appointment only<br>
+            <strong>Closed Weekends and holidays</strong></p>
+
+          </div>
+
+          <!-- <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>info@example.com</p>
+          </div> -->
+
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Call:</h4>
+            <p><strong>Office:</strong> (720) 608-1444</p>
+          </div>
+
+          <div class="booking">
+            <i class="bi-calendar-event"></i>
+            <p class="pt-2"><a class="btn btn-sm btn-primary" href="#">Book Consultation</a></p>
+          </div>
+
+          <img src="/assets/img/Google-Maps.png" alt="Google Map of Rangely Colorado" class="img-fluid">
+        </div>
+
+      </div>
+
+      <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+        <form action="https://formspree.io/f/mrgopqob" method="post" role="form" class="php-email-form">
+          <h6 class="text-center">All fields are required.</h6>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="name">Your Name <span class="text-danger">*</span></label>
+              <input type="text" name="name" class="form-control" id="name" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="email">Your Email <span class="text-danger">*</span></label>
+              <input type="email" class="form-control" name="email" id="email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" name="subject" id="subject" value="" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message <span class="text-danger">*</span></label>
+            <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="g-recaptcha" data-sitekey="your_site_key"></div> <!-- replace with your recaptcha SITE key not secret key -->
+          <br/>
+          <div class="text-center"><button type="submit" value="Submit">Send Message</button></div>
+        </form>
+      </div>
+
+    </div>
 
   </div>
 </section><!-- End Contact Section -->
