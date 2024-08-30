@@ -5,7 +5,7 @@
     <ol>
       <li><a href="{{site.url}}">Home</a></li>
       {% if page.is_series == true or page.category == "newsletter" %}
-        <li><a href="{{site.url}}/ChatterRoom">ChatterRoom</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}ChatterRoom">ChatterRoom</a></li>
 
       {% endif %}
       <li>{{ page.title }}</li>
