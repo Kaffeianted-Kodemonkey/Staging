@@ -40,4 +40,4 @@ gem "webrick", "~> 1.8"
 gem 'rack', '~> 2.2'
 
 gem "rake"
-ruby "3.0.2"
+ruby "3.3.4"
