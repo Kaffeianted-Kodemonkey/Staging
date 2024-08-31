@@ -38,3 +38,5 @@ gem 'jekyll-admin', '~> 0.11.0'
 gem "webrick", "~> 1.8"
 
 gem 'rack', '~> 2.2'
+
+#gem 'github-pages'
