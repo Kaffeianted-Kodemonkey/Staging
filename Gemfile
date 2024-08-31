@@ -39,4 +39,5 @@ gem "webrick", "~> 1.8"
 
 gem 'rack', '~> 2.2'
 
-#gem 'github-pages'
+gem "rake"
+ruby "3.0.2"
