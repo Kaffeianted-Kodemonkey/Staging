@@ -1,1 +1,1 @@
-web: bin/start-nginx-static
+$ echo 'web: vendor/bin/heroku-php-apache2 _site/' > Procfile
