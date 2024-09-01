@@ -11,6 +11,9 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.17.0)
+    ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.4)
     google-protobuf (3.25.4-arm64-darwin)
@@ -63,9 +66,12 @@ GEM
     multi_json (1.15.0)
     mustermann (3.0.2)
       ruby2_keywords (~> 0.0.1)
+    nio4r (2.7.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
+    puma (6.4.2)
+      nio4r (~> 2.0)
     rack (2.2.9)
     rack-protection (3.2.0)
       base64 (>= 0.1.0)
@@ -82,6 +88,12 @@ GEM
     sass-embedded (1.69.5)
       google-protobuf (~> 3.23)
       rake (>= 13.0.0)
+    sass-embedded (1.69.5-arm64-darwin)
+      google-protobuf (~> 3.23)
+    sass-embedded (1.69.5-x86_64-darwin)
+      google-protobuf (~> 3.23)
+    sass-embedded (1.69.5-x86_64-linux-gnu)
+      google-protobuf (~> 3.23)
     sinatra (3.2.0)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
@@ -112,6 +124,7 @@ DEPENDENCIES
   jekyll-admin (~> 0.11.0)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
+  puma
   rack (~> 2.2)
   rake
   tzinfo (>= 1, < 3)
@@ -120,7 +133,7 @@ DEPENDENCIES
   webrick (~> 1.8)
 
 RUBY VERSION
-   ruby 3.0.2p107
+   ruby 3.3.4p94
 
 BUNDLED WITH
    2.5.17
