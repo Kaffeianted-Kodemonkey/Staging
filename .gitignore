@@ -1,9 +1,7 @@
-<<<<<<< HEAD
+
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
-=======
 _site/feed.xml
->>>>>>> 42785f723b6862f8672a8e11756ae8549e82bef9

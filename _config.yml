@@ -43,6 +43,8 @@ jekyll_admin:
     - datafiles
     - configuration
 
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
 
 
 # Exclude from processing.
