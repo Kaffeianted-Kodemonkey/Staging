@@ -66,9 +66,12 @@ GEM
     multi_json (1.15.0)
     mustermann (3.0.2)
       ruby2_keywords (~> 0.0.1)
+    nio4r (2.7.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
+    puma (6.4.2)
+      nio4r (~> 2.0)
     rack (2.2.9)
     rack-protection (3.2.0)
       base64 (>= 0.1.0)
@@ -121,6 +124,7 @@ DEPENDENCIES
   jekyll-admin (~> 0.11.0)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
+  puma
   rack (~> 2.2)
   rake
   tzinfo (>= 1, < 3)
