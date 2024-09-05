@@ -27,11 +27,12 @@
             </div>
           </div>
           <hr>
-          {% if page.category != 'Empty' }
+          {% if site.category != empty }
             {% include sidebar-left.html %}
-
-            {% include affiliates.html %}
           {% endif %}
+
+          {% include affiliates.html %}
+
         </div>
         <div class="col-lg-8 mb-3 fs-5">
 
