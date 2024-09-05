@@ -17,17 +17,15 @@
             <div class="col">
               <figure>
                   <img src="{{site.url}}/assets/img/Kaffeinated_Kodemonkey_Logo1.jpg" alt="Kaffeinated Kodemonkey" width="50%" class="img-thumbnail mb-3 ms-3"/>
-                  {% if page.title == "About" %}
                   <figcaption>
-                    <h3>Owner | A11y Dev</h3>
+                    <!-- <h3>Owner | A11y Dev</h3> -->
                     <p><strong>Trusted Tester ID: TT-2311-03604</strong>
                   </figcaption>
-                  {% endif %}
               </figure>
             </div>
           </div>
           <hr>
-          {% if site.category != empty }
+          {% if site.category != empty %}
             {% include sidebar-left.html %}
           {% endif %}
 
